@@ -57,5 +57,22 @@ using HCI RTL8761BUV dongle
 
 Alimenté par un circuit relié via un dupont à une carte d'alim 220v->
 
+## Pictures of the main board
 
+![1760703353801](./README.assets/1760703353801.jpg)
 
+![1760703535414](./README.assets/1760703535414.jpg)
+
+## Searching for access
+
+I really want to try to find an UART so i can play. Here's the IC Pinout:
+
+![Capture d’écran du 2025-10-17 14-55-14](./README.assets/Capture d’écran du 2025-10-17 14-55-14.png)
+
+Looking at the board, i think TX_N1 and RX_N1 are routed to the port J2:
+
+![1760705688720](./README.assets/txrxn1.png)
+
+Not sure about this, Nosignal on PAD 2 and 4 as expected, but some serial looking stuff on 1. Maybe 1 is TX.
+
+![1760708441374](./README.assets/1760708441374.jpg)
